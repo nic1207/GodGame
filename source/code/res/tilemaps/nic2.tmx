@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="168" height="13" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="map" value="ohye"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="fixed-ortho-test2.png" width="640" height="400"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="harmful"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="type" value="harmful"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="type" value="orb"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="scootest" value="1"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="type" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="type" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="type" value="empty"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Layer 0" width="168" height="13">
+  <properties>
+   <property name="name" value="hello"/>
+   <property name="test" value="test"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2YWw6DIBBFUVEX4EfTLbTdQrv8rquaSEpueAyIMCofJ0haYMIcR7QTQgwz30pFYyIwzrSJ1lvm6gC5tgOD/ajwgurn4k+TYL0r+zkxiIET6JnJlZaA7lJoHb0b1lQ+Yjsw2LO9c5FyzvHge0bxE2sZhZA6+iCsKVeOvNeufXflYAtH9ZNaF7E2hrCMbSJa5WLJ57vuyl7u5MozRz9992VsXcyN/nw/U/3EGlA6nlzkqIs5vbza+9FZmCztUepirK8p/bQ9r9X9i2cP6pwlzwIcziC+GlnapZQ+bn1/f868PDnE/s0COhjqjWlMrMu2d1nTeZ7yfXASf39C4sH6qOIw5e7MxPr5nvlE5J8zqj6hi7b7muqn/g3b56irRl7BSQnXer/ZSO/pU8bbxvTwuy2H+B/s21q8ptATCZnTFYsp5tI+7eGmBErHxQHckwoffmud9sYgIgAA
+  </data>
+ </layer>
+ <objectgroup name="objectLayer">
+  <properties>
+   <property name="objectGroup" value="group"/>
+  </properties>
+  <object x="438" y="-37" width="134" height="111">
+   <properties>
+    <property name="name" value="nero"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
